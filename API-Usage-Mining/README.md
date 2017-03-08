@@ -16,7 +16,7 @@ Nuts and bolts scripts I used for my thesis, regarding API usage examples mining
 - ### preprocessing
 
     Applies preprocessing by grouping and filtering the callgraph files. Next step is the sequence mining algorithm.
- - ### Sequence mining
+- ### Sequence mining
     For that you have a lot of choices, one of many being BIDE algorithm. I personally used sparesort, which I tinkered a bit to accept input in a manner more consistent with 2017 and the needs of my thesis. My version is [here](https://github.com/themistoklik/sparesort), also check out [pymining](https://github.com/bartdag/pymining).
 
 - #### postprocessing
