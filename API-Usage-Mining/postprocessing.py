@@ -46,10 +46,10 @@ def group(res):
     print "len is", len(setres)
     for item in setres[:]:
         print len(setres)
-        for item1 in setres[:]:
-            if item[1] != item1[1]:
-                if item[1] >= item1[1]:
-                    setres.remove(item1)
+        for item_ in setres[:]:
+            if item[1] != item_[1]:
+                if item[1] >= item_[1]:
+                    setres.remove(item_)
                     break
     # return list to original form
     map_to_values = map(lambda x: res[x[0]], setres)
